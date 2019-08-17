@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/vitapet?serverTimezone=UTC"/>
+        <property name="username" value="vitapet"/>
+        <property name="password" value="Vitapet1!"/>
+    </bean>
+
+    <bean name="hibernatePersistenceProvider" class="org.hibernate.jpa.HibernatePersistenceProvider"/>
+
+<!--    <bean name="localContainerEntityManagerFactoryBean" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">-->
+<!--        <property name="dataSource" ref="datasource"/>-->
+<!--        <property name="jpaVendorAdapter">-->
+<!--            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>-->
+<!--        </property>-->
+<!--        <property name="jpaProperties">-->
+<!--            <bean class="properties.JPAProperties"/>-->
+<!--        </property>-->
+<!--        <property name="persistenceProviderClass">-->
+<!--            <bean class="java.lang.Class" factory-method="forName">-->
+<!--                <constructor-arg value="org.hibernate.jpa.HibernatePersistenceProvider"/>-->
+<!--            </bean>-->
+<!--        </property>-->
+<!--        <property name="packagesToScan" value="main.entities"/>-->
+<!--    </bean>-->
+    
+    <bean name="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="datasource"/>
+        <property name="packagesToScan" value="main.entities"/>
+        <property name="hibernateProperties">
+            <bean class="properties.JPAProperties"/>
+        </property>
+    </bean>
+
+<!--    <bean name="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">-->
+<!--    </bean>-->
+
+    <bean name="service" class="main.service.Service1"/>
+    <bean name="genericDao" class="main.service.GenericDao" primary="true"/>
+</beans>
