@@ -7,54 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="219c891c-dbfc-40c2-b37a-d5de88cf07af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/entities/IEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/entities/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/service/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/service/Service1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/properties/JPAProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vitapet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/vitapet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/vitapet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/server7_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/classes/META-INF/server7.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/classes/main/VitaPet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/classes/main/controllers/Body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/classmate-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/hibernate-validator-6.0.14.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/jackson-core-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/jackson-datatype-jdk8-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/jackson-datatype-jsr310-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/jackson-module-parameter-names-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/log4j-api-2.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/log4j-to-slf4j-2.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/snakeyaml-1.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-aop-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-beans-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-boot-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-boot-autoconfigure-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-boot-starter-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-boot-starter-json-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-boot-starter-logging-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-boot-starter-tomcat-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-boot-starter-web-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-context-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-core-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-expression-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-jcl-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-web-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/spring-webmvc-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/tomcat-embed-el-9.0.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/tomcat-embed-websocket-9.0.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitaPet/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/vitapet/WEB-INF/classes/META-INF/server7.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/server7.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/server7-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/server7-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/VitaPet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/VitaPet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/controllers/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/controllers/Body.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,9 +41,14 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="vitapet" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -97,14 +67,9 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="155" />
-    <option name="y" value="27" />
-    <option name="width" value="1084" />
-    <option name="height" value="876" />
   </component>
   <component name="ProjectId" id="1OSnbYbMkxzcMx4lS8OuYfhRVKZ" />
   <component name="PropertiesComponent">
@@ -116,12 +81,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554923850397" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -137,7 +103,7 @@
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.17">
     <configuration name="FirstController" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="server7" />
+      <module name="vitapet" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.controllers.*" />
@@ -150,6 +116,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.17" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:3000/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="vitapet">
@@ -403,6 +370,18 @@
       <workItem from="1555648534672" duration="874000" />
       <workItem from="1563979941915" duration="630000" />
       <workItem from="1564050736514" duration="4641000" />
+      <workItem from="1564137964794" duration="1346000" />
+      <workItem from="1564144081963" duration="1608000" />
+      <workItem from="1564156764392" duration="29000" />
+      <workItem from="1564231060155" duration="4956000" />
+      <workItem from="1564303360121" duration="4162000" />
+      <workItem from="1564319355986" duration="487000" />
+      <workItem from="1564836679067" duration="6997000" />
+      <workItem from="1565511910480" duration="2164000" />
+      <workItem from="1565514865034" duration="5808000" />
+      <workItem from="1565520995425" duration="3682000" />
+      <workItem from="1565526531811" duration="3105000" />
+      <workItem from="1566040969830" duration="9522000" />
     </task>
     <servers />
   </component>
@@ -426,94 +405,63 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/main/controllers/Body.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar!/org/springframework/boot/web/servlet/support/SpringBootServletInitializer.class</url>
+          <line>40</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar!/org/apache/catalina/core/StandardContext.class</url>
+          <line>2797</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar!/org/apache/catalina/core/StandardContext.class</url>
+          <line>2801</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/core/StandardServer.java</url>
+          <line>919</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="beanName.contains(&quot;dao&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class</url>
+          <line>681</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="beanName.contains(&quot;dao&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class</url>
+          <line>689</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/ejb/access/LocalStatelessSessionProxyFactoryBean.class</url>
+          <line>39</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.1.5.RELEASE/spring-orm-5.1.5.RELEASE-sources.jar!/org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java</url>
+          <line>209</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.1.5.RELEASE/spring-orm-5.1.5.RELEASE-sources.jar!/org/springframework/orm/jpa/LocalEntityManagerFactoryBean.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.1.5.RELEASE/spring-orm-5.1.5.RELEASE-sources.jar!/org/springframework/orm/jpa/vendor/SpringHibernateJpaPersistenceProvider.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/main/controllers/Body.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="3" />
+          <line>50</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>vitapet</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>server7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
